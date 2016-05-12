@@ -30,15 +30,18 @@ def fibo2(n)
   end
 end
 
-iterations = 40
+iterations = 35
 
+puts "fib1 - Recursivo"
 puts "-----------"
 t = Time.now
 puts "Resultado: #{fibo1(iterations)}"
 puts "Tempo: #{Time.now - t}"
 puts "-----------"
 
+puts "\n"
 
+puts "fibo2 - Interativo"
 puts "-----------"
 t = Time.now
 puts "Resultado: #{fibo2(iterations)}"
